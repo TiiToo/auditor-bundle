@@ -32,6 +32,7 @@ services:
     tags:
       - { name: twig.extension }
 
-  DH\DoctrineAuditBundle\Command\CleanAuditLogsCommand:
+  dh_doctrine_audit.cleanauditlogscommand:
+    class: DH\DoctrineAuditBundle\Command\CleanAuditLogsCommand
     tags:
       - { name: 'console.command', command: 'audit:clean' }
