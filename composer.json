@@ -1,5 +1,5 @@
 {
-  "name": "damienharper/doctrine-audit-bundle",
+  "name": "tiitoo/doctrine-audit-bundle",
   "type": "symfony-bundle",
   "description": "Doctrine Audit Bundle",
   "keywords": ["doctrine", "audit"],
@@ -12,7 +12,7 @@
   ],
   "require": {
     "php": ">=7.1",
-    "doctrine/orm": "^2.5"
+    "doctrine/orm": "^2.4"
   },
   "autoload": {
     "psr-4": {
